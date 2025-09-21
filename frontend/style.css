@@ -1,0 +1,58 @@
+body {
+    background: blue;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;   
+    margin: 0 auto;
+}
+label {
+    margin-top: 10px;    
+}
+.form-container {
+  max-width: 420px;
+  margin: 80px auto 0; 
+}
+.navbar-custom {
+    background-color:  #21294A ;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white;            
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ddd;              
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+input:focus {
+    border-color: #21294A;
+    box-shadow: 0 0 5px rgba(0,0,128,0.5);
+    outline: none;
+    }
+    button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #21294A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #0b1d4d; 
+}
