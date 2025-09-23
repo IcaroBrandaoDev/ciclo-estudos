@@ -16,8 +16,8 @@ label {
 }
 .navbar-custom {
     background-color:  #21294A ;
+    
 }
-
 .navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
     color: white;            
@@ -55,4 +55,8 @@ input:focus {
 }
 button:hover {
     background: #0b1d4d; 
+}
+#cadastrar {
+    margin-top: 20px;
+    border-radius: 4px;
 }
